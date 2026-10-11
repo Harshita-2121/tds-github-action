@@ -1,0 +1,16 @@
+
+name: TDS GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f3002072@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
